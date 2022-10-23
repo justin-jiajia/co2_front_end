@@ -6,5 +6,5 @@ import { UniversalTransition } from "echarts/features";
 import { CanvasRenderer } from "echarts/renderers";
 
 echarts.use([GridComponent, LineChart, CanvasRenderer, UniversalTransition]);
-axios.defaults.baseURL = "http://127.0.0.1:5000/api_v1/";
+axios.defaults.baseURL = "https://co2.api.hijiajia.xyz/api_v1/";
 export { axios, echarts };
